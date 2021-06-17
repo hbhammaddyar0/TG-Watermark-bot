@@ -17,10 +17,10 @@ class Config(object):
 	UPDATES_CHANNEL = os.environ.get("-1001190978362", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
-	OWNER_ID = int(os.environ.get("OWNER_ID", 1160089400))
-	CAPTION = "By @AHToolsBot"
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "HBWatermark_bot")
-	DATABASE_URL = os.environ.get("mongodb+srv://hbhammaddyar:hbhammaddyar@cluster0.tvqma.mongodb.net/Cluster0?retryWrites=true&w=majority")
+	OWNER_ID = int(os.environ.get("1160089400", 12345))
+	CAPTION = "By @hbhammaddyar"
+	BOT_USERNAME = os.environ.get("HBWatermark_bot")
+	DATABASE_URL = os.environ.get("mongodb+srv://hbhammaddyar:hbhammaddyar@cluster0.tvqma.mongodb.net/cluster0?retryWrites=true&w=majority")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
