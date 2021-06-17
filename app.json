@@ -1,40 +1,40 @@
 {
-    "name": "Telegram Video Watermark Adder Bot",
-    "description": "A Telegram Video Watermark Adder Bot in Pyrogram by @AbirHasan2005",
+    "name": "TG Watermark bot",
+    "description": "A Telegram Video Watermark Adder Bot in Pyrogram by @hbhammaddyar",
     "keywords": [
         "telegram",
         "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/Watermark-Bot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/hbhammaddyar0/TG-Watermark-bot/",
+    "website": "https://telegram.dog/hbhammaddyar0",
+    "success_url": "https://t.me/kdramashindi",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "4203842"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "84fd5643640d6b1e2063d6b6ccf21f8b"
         },
         "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+            "description": "1853610435:AAGrrCzsK8Whcr4EenHM8ktUo8udLPZsk_w"
         },
         "BOT_USERNAME": {
-            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+            "description": "HBWatermark_bot"
         },
         "OWNER_ID": {
-            "description": "Bot Owner UserID"
+            "description": "1160089400"
         },
         "DATABASE_URL": {
-            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+            "description": "mongodb+srv://hbhammaddyar:hbhammaddyar@cluster0.tvqma.mongodb.net/Cluster0?retryWrites=true&w=majority"
         },
         "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
-            "required": false
+            "description": "-1001190978362",
+            "required": true
         },
         "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+            "description": "-1001190978362"
         },
         "PRESET": {
             "description": "Video Encoding Preset Type. Better put ultrafast or superfast or veryfast (Optional)",
