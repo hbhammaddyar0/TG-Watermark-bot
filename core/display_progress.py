@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @hbhammaddyar
 
 import math
 import time
